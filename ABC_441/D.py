@@ -8,12 +8,9 @@
 https://atcoder.jp/contests/abc441/tasks/abc441_d
 
 题意：给一个n个点m条边的 有向图，问所有从1出发，走L条边，路过的所有边权总和在[S,T]中的终点位置
-
 思路：bfs
-
 """
 from collections import deque
-
 
 def main():
     n, m, L, S, T = map(int, input().split())
